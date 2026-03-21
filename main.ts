@@ -337,7 +337,7 @@ init();
 let kart: Group;
 let kartBody: CANNON.Body;
 const loader = new GLTFLoader();
-loader.load('/assets/models/kart-oobi.glb', (gltf) => {
+loader.load('assets/models/kart-oobi.glb', (gltf) => {
   kart = gltf.scene;
   kart.scale.setScalar(0.2);
   kart.visible = false;
@@ -356,7 +356,7 @@ loader.load('/assets/models/kart-oobi.glb', (gltf) => {
 });
 
 const trackLoader = new GLTFLoader();
-trackLoader.load('/assets/models/piste.glb', (gltf) => {
+trackLoader.load('assets/models/piste.glb', (gltf) => {
   track = gltf.scene;
   track.scale.setScalar(0.2);
   track.visible = false;
