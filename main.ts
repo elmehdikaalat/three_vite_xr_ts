@@ -333,10 +333,6 @@ const init = () => {
 }
 
 
-const xrDevice = new XRDevice(metaQuest3);
-xrDevice.installRuntime();
-new DevUI(xrDevice);
-
 init();
 
 let kart: Group;
