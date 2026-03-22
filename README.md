@@ -24,6 +24,7 @@ Pointez votre téléphone vers une surface plate, appuyez pour poser le kart et 
 
 ## Démo
 
+![demo](./demo/demo.gif)
 
 ---
 
